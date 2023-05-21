@@ -13,14 +13,10 @@
     <link rel="stylesheet" href="dist/reveal.css" />
     <link rel="stylesheet" href="dist/theme/black.css" />
 
-    <!-- Theme used for syntax highlighted code -->
     <link rel="stylesheet" href="plugin/highlight/monokai.css" />
 
-    <!-- Bootstrap CSS -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-    />
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
 
   <body>
@@ -37,64 +33,24 @@
         </section>
 
         <section>
-          <h1>Slide 2</h1>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
-          </p>
-        </section>
-
-        <section>
-          <h1>Slide 3</h1>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
-          </p>
-        </section>
-
-        <section>
-          <h1>Slide 4</h1>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
-          </p>
-        </section>
-
-        <section>
-          <h1>Slide 5</h1>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
-          </p>
-        </section>
-
-        <section>
-          <div class="container">
-            <div class="row">
-              <div class="col-md-6">
+          <div class="container mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-2">
+              <div class="flex items-center justify-center">
                 <img
                   width="100"
                   src="https://yt3.googleusercontent.com/KrXLtsaBiD6iZUpCwryzDeJHTTGQva2oYYuzqeb9bVWx7m43nqQIxZxhpIX7G4MOeoll0iLf0kc=s900-c-k-c0x00ffffff-no-rj"
                   alt="Logo WSB"
                 />
               </div>
-              <div class="col-md-6">
+              <div class="flex items-center justify-center">
                 <p>Text</p>
               </div>
             </div>
-            <div class="row">
-              <div class="col-md-6">
+            <div class="grid grid-cols-1 md:grid-cols-2">
+              <div class="flex items-center justify-center">
                 <p>Text</p>
               </div>
-              <div class="col-md-6">
+              <div class="flex items-center justify-center">
                 <img
                   width="100"
                   src="https://yt3.googleusercontent.com/KrXLtsaBiD6iZUpCwryzDeJHTTGQva2oYYuzqeb9bVWx7m43nqQIxZxhpIX7G4MOeoll0iLf0kc=s900-c-k-c0x00ffffff-no-rj"
@@ -106,21 +62,21 @@
         </section>
 
         <section>
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12">
+          <div class="container mx-auto">
+            <div class="grid grid-cols-1">
+              <div class="flex items-center justify-center">
                 <p>Text</p>
               </div>
             </div>
-            <div class="row">
-              <div class="col-md-6">
+            <div class="grid grid-cols-1 md:grid-cols-2">
+              <div class="flex items-center justify-center">
                 <img
                   width="100"
                   src="https://yt3.googleusercontent.com/KrXLtsaBiD6iZUpCwryzDeJHTTGQva2oYYuzqeb9bVWx7m43nqQIxZxhpIX7G4MOeoll0iLf0kc=s900-c-k-c0x00ffffff-no-rj"
                   alt="Logo WSB"
                 />
               </div>
-              <div class="col-md-6">
+              <div class="flex items-center justify-center">
                 <img
                   width="100"
                   src="https://yt3.googleusercontent.com/KrXLtsaBiD6iZUpCwryzDeJHTTGQva2oYYuzqeb9bVWx7m43nqQIxZxhpIX7G4MOeoll0iLf0kc=s900-c-k-c0x00ffffff-no-rj"
@@ -138,18 +94,10 @@
     <script src="plugin/markdown/markdown.js"></script>
     <script src="plugin/highlight/highlight.js"></script>
     <script>
-      // More info about initialization & config:
-      // - https://revealjs.com/initialization/
-      // - https://revealjs.com/config/
       Reveal.initialize({
         hash: true,
-
-        // Learn about plugins: https://revealjs.com/plugins/
         plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
       });
     </script>
-
-    <!-- Bootstrap JS (Optional) -->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   </body>
 </html>
